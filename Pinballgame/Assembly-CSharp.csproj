@@ -56,10 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\ColorController.cs" />
+    <Compile Include="Assets\Script\RandomPositionController.cs" />
     <Compile Include="Assets\Script\LauncherController.cs" />
     <Compile Include="Assets\Script\BumperController.cs" />
     <Compile Include="Assets\Script\SwitchController.cs" />
+    <Compile Include="Assets\Script\CoinController.cs" />
     <Compile Include="Assets\Script\PaddleController.cs" />
+    <Compile Include="Assets\Script\Reset.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
